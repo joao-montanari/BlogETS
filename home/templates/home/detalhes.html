@@ -1,0 +1,22 @@
+{% load static %}
+{% include 'headerdetalhes.html' %}
+
+<body>
+    {% include 'cabecalho.html' %}
+    <div class="informacoes">
+        <h1>{{ postagens.titulo }}</h1>
+        <div class="display">
+            <div class="infos">
+                <h3>SUB-TÍTULO: {{ postagens.sub_titulo }}</h3>
+                <h4>CURSO: {{ postagens.curso }}</h4>
+                <h4>AUTOR: {{ postagens.autor }}</h4>
+            </div>
+            <div class="conteudo">
+                <h3>CONTEÚDO:</h3>
+                <p>
+                    {{ postagens.conteudo }}
+                </p>
+            </div>
+        </div>
+    </div>
+</body>

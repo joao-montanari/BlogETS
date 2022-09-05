@@ -1,0 +1,30 @@
+{% load static %}
+{% include 'headerpostagem.html' %}
+<body>
+    <form class="_container">
+        <div class="_img">
+        </div>
+        <div class="_conteudo">
+            <h1>Postagem:</h1>
+            <div class="_entradas">
+                <select type="text" placeholder="Curso">
+                    <option value="text">Administração</option>
+                    <option value="text">ETS</option>
+                    <option value="text">Manufatura Digital</option>
+                    <option value="text">Mecatrônica</option>
+                    <option value="text">Smart Automation</option>
+                </select>
+                <input type="text" placeholder="Título">
+            </div>
+            <div class="_entradas">
+                <input type="text" placeholder="Autor">
+                <input type="text" placeholder="Sub-título">
+            </div>
+            <textarea name="" id="" class="_postagem" placeholder="Conteúdo"></textarea>
+            <div class="_entradas">
+                <button type="submit">Postar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

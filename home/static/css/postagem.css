@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: aqua; */
+}
+
+._container{
+    display: flex;
+    align-items: center;
+}
+
+._img{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../img/wallpaper-postagem.jpg);
+}
+
+._conteudo{
+    /* border: 1px solid #000; */
+    width: 60%;
+    margin-left: 5%;
+}
+
+._conteudo h1{
+    margin: 10px;
+    display: grid;
+}
+
+._entradas{
+    display: flex;
+}
+
+._entradas input{
+    width: 50%;
+    margin: 1%;
+    height: 50px;
+    font-size: larger;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #000;
+}
+
+._entradas select{
+    width: 50%;
+    margin: 1%;
+    height: 50px;
+    font-size: larger;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #000;
+}
+
+._postagem{
+    width: 98%;
+    margin: 10px;
+    height: 500px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    padding: 10px 15px 10px 15px;
+}
+
+._container button{
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    font-size: larger;
+    border: 1px solid #2149FB;
+    background-color: #2149FB;
+}
+
+._container button:hover{
+    cursor: pointer;
+}

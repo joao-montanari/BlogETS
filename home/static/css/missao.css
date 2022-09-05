@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: aqua; */
+}
+
+.cabecalho{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    /* position: fixed; */
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+a{
+    color: #000;    
+    text-decoration: none;
+}
+
+.links{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    color: #000;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-around;
+}
+
+.postar{
+    width: 100px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #2149FB;
+}
+
+/*///////////////////////////////////////////////////////////////////*/
+
+.__container{
+    display: block;
+    justify-content: center;
+}
+
+.__child{
+    border: 1px solid #000;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    /* border-top: 3px solid #2149FB; */
+}
+
+.__wallpaper{
+    /* border: 1px solid #000; */
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../img/wallpaperMissao.png);
+}
+
+.__titulos{
+    /* border: 1px solid #000; */
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.__titulos h3{
+    font-size: 1.2vw;
+    margin-top: 20px;
+}
+
+.__titulos h1{
+    font-size: 3vw;
+}
+
+.__boasvindas{
+    border: 1px solid #000;
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    display: flex;
+    font-size: 2vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #2149FB;
+}
+
+.__card{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.__image{
+    border-bottom: 3px solid #2149FB;
+    width: 50%;
+    height: 100%;
+}
+
+.__image img{
+    width: 100%;
+    height: 100%;
+}
+
+.__conteudo{
+    border-bottom: 3px solid #2149FB;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.__fundobranco{
+    background-color: #fff;
+}
+
+.__fundocinza{
+    color: #fff;
+    background-color: #acacac;
+}
+
+.__conteudo p{
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+}
+
+.__educacao{
+    background-size: cover;
+    background-image: url(../img/educacaoMissao.png);
+}
+
+.__company{
+    background-size: cover;
+    background-image: url(../img/companyMissao.png);
+}
+
+.__studants{
+    background-size: cover;
+    background-image: url(../img/studantMissao.png);
+}
+
+.__industry{
+    background-size: cover;
+    background-image: url(../img/industryMissao.png);
+}
+
+/*//////////////////////////////////////////////////////*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.child{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    background-color: #000;
+}
+
+.global{
+    /* border: 1px solid #fff; */
+    width: 80%;
+    height: 90%;
+    margin-top: 50px;
+}
+
+.local{
+    /* border: 1px solid #fff; */
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.localBottom{
+    /* border: 1px solid #fff; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.interno{
+    /* border: 1px solid #fff; */
+    width: 50%;
+    height: 100%;
+}
+
+.TitleRede{
+    text-align: right;
+}
+
+.apps{
+    border: 3px solid #fff;
+    width: 400px;
+    height: 60px;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: larger;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.iconsroda{
+    /* border: 1px solid #fff; */
+    width: 70%;
+    float: right;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.iconroda{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.interno ul{
+    text-align: right;
+}
+
+.iconroda img{
+    width: 80px;
+    height: 80px;
+}
+
+.text{
+    padding: 10px;
+}

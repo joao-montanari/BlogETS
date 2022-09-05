@@ -1,0 +1,24 @@
+{% load static %}
+{% include 'headerpostcursos.html' %}
+
+<body>
+    {% include 'cabecalho.html' %}
+    {% for p in Postagens %}
+        <div class="informacoes">
+            <h1>{{ p.titulo }}</h1>
+            <div class="display">
+                <div class="infos">
+                    <h3>SUB-TÍTULO: {{ p.sub_titulo }}</h3>
+                    <h4>CURSO: {{ p.curso }}</h4>
+                    <h4>AUTOR: {{ p.autor }}</h4>
+                </div>
+                <div class="conteudo">
+                    <h3>CONTEÚDO:</h3>
+                    <p>
+                        {{ p.conteudo }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</body>

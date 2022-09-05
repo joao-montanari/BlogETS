@@ -1,0 +1,66 @@
+{% load static %}
+{% include 'headerindex.html' %}
+
+<body>
+    {% include 'cabecalho.html' %}
+
+    <img class="company" src="{% static 'img/bosch_company.jpg' %}" alt="">
+    
+    <div class="titulocursos">
+        <h2>Cursos</h2>
+    </div>
+
+    <div class="icones-container">
+        <div class="icon-conteudo">
+            <a href=""><img src="{% static 'img/computacao.png' %}" class="icon" alt=""></a>
+            <h4>Smart Automation</h4>
+            <p>Curso focado na automatização de processos por meio da computação.</p>
+        </div>
+        <div class="icon-conteudo">
+            <a href=""><img src="{% static 'img/mecanico.png' %}" class="icon" alt=""></a>
+            <h4>Mecatrônica</h4>
+            <p>Responsável por instalar e operar equipamentos automatizados e robotizados.</p>
+        </div>
+        <div class="icon-conteudo">
+            <a href=""><img src="{% static 'img/home.png' %}" class="icon" alt=""></a>
+            <h4>ETS</h4>
+            <p>É a escola técnica de engenharia, responsável por formar profissionais.</p>
+        </div>
+        <div class="icon-conteudo">
+            <a href=""><img src="{% static 'img/administracao.png' %}" class="icon" alt=""></a>
+            <h4>Administração</h4>
+            <p>Suporte às atividades de planejamento, gestão, avaliação e controle de recursos.</p>
+        </div>
+        <div class="icon-conteudo">
+            <a href=""><img src="{% static 'img/automacao.png' %}" class="icon" alt=""></a>
+            <h4>Manufatura</h4>
+            <p>Refere-se à produção em escala de bens e serviços, por meio do trabalho manual e de máquinas.</p>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <div class="teceducacao">
+            
+        </div>
+        <div class="row">
+            <div class="card">
+              <h2>ETS</h2>
+              <p>Escola Técnica de Engenharia</p>
+            </div>
+       
+            <div class="card">
+              <h2>Origem</h2>
+              <p>O site se trata de um projeto de aprendizagem para o curso de Smart Automation com frameword Django</p>
+            </div>
+       
+            <div class="card">
+              <h2>Cursos</h2>
+              <p>Aqui você vai encontrar informações sobre todos os 4 cursos da ETS para compartilhar a educação</p>
+            </div>
+        </div>
+    </div>
+
+    {% include 'rodape.html' %}
+
+</body>
+</html>
