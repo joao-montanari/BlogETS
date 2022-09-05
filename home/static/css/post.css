@@ -76,6 +76,11 @@ a{
     border: 1px solid #000;
     width: 50%;
     padding: 10px;
+    justify-content: center;
+}
+
+.infos h3{
+    text-align: center;
 }
 
 .conteudo{

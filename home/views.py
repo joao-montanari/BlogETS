@@ -13,16 +13,16 @@ def home_postagem(request):
 def home_missao(request):
     return render(request, 'home/missao.html')
 
-def home_detalhes(request, id):
+def home_post(request, id):
     context = get_object_or_404(
         Postagem, id=id
     )
-    return render(request, 'home/detalhes.html', {'postagens' : context})
+    return render(request, 'home/post.html', {'postagens' : context})
 
-def home_postcursos(request):
+def home_posts(request):
     dados_sql = Postagem.objects.all()
     context = {
         'Postagens' : dados_sql
     }
 
-    return render(request, 'home/postcursos.html', context)
+    return render(request, 'home/posts.html', context)
